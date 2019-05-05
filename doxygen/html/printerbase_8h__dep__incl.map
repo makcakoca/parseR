@@ -1,0 +1,8 @@
+<map id="include/printerbase.h" name="include/printerbase.h">
+<area shape="rect" id="node2" href="$consolewriter_8h.html" title="write messages to console " alt="" coords="5,80,160,107"/>
+<area shape="rect" id="node6" href="$packetbase_8h.html" title="abstract class for packet " alt="" coords="185,80,330,107"/>
+<area shape="rect" id="node3" href="$textpacket_8h.html" title="TextPacket class. " alt="" coords="23,155,161,181"/>
+<area shape="rect" id="node4" href="$textparser_8h.html" title="parse packet through defined structure " alt="" coords="129,229,265,256"/>
+<area shape="rect" id="node5" href="$packetparser_8h.html" title="PacketParser Class. " alt="" coords="67,304,221,331"/>
+<area shape="rect" id="node7" href="$parserbase_8h.html" title="ParserBase Class. " alt="" coords="186,155,329,181"/>
+</map>
