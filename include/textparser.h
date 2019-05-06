@@ -12,13 +12,25 @@
 #define HEADER 0xAB
 
 /**
+ * @enum ParserStates
+ * @brief Parser states
+ * 
+ */ 
+enum ParserStates {
+   PARSING_HEADER = 0,
+   PARSING_LENGTH,
+   PARSING_PAYLOAD,
+   PARSING_CHECKSUM
+};
+
+/**
  * @class TextParser
  * @brief parse text through defined packet structure
  * 
  */
 class TextParser : public ParserBase {
  private:
-    int parser_state_;
+    ParserStates parser_state_;
     int header_index_;
 
  public:
